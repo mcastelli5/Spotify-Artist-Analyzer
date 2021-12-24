@@ -1,1 +1,1 @@
-# Spotify-Artist-Analysis
+# Spotify-Artist-Analyzer
