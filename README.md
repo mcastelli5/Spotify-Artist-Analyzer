@@ -24,9 +24,14 @@ The description for each feature from the [Spotify Web API Guidance](https://dev
 
 **Tempo**: the overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece, and derives directly from the average beat duration.
 
-## Example Analysis
+## Example Use Case
 
 Artists (user input at the start of analyzer): J. Cole, John Mayer, Luke Bryan, Marshmello
 
+![artist_comp_overview](https://user-images.githubusercontent.com/94403609/147392354-8bc1f466-0ea6-4d79-aa18-9231bec73f1b.png)
+
+
+
+## Lessons Learned
 
 
