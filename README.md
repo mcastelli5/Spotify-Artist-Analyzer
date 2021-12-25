@@ -23,3 +23,10 @@ The description for each feature from the [Spotify Web API Guidance](https://dev
 **Valence**: a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (for example happy, cheerful, euphoric), while tracks with low valence sound more negative (for example sad, depressed, angry).
 
 **Tempo**: the overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece, and derives directly from the average beat duration.
+
+## Example Analysis
+
+Artists (user input at the start of analyzer): J. Cole, John Mayer, Luke Bryan, Marshmello
+
+
+
