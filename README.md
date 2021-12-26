@@ -24,11 +24,25 @@ The description for each feature from the [Spotify Web API Guidance](https://dev
 
 **Tempo**: the overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece, and derives directly from the average beat duration.
 
-## Example Use Case
+## Use Case
 
 Artists (user input at the start of analyzer): J. Cole, John Mayer, Luke Bryan, Marshmello
 
-![artist_comp_overview](https://user-images.githubusercontent.com/94403609/147392354-8bc1f466-0ea6-4d79-aa18-9231bec73f1b.png)
+|![artist_comp_overview](https://user-images.githubusercontent.com/94403609/147392354-8bc1f466-0ea6-4d79-aa18-9231bec73f1b.png)|
+|:--:|
+|Fig. 1 - Artist Overview</b>|
+
+Once the user selects the artist's that they would like to analyze, the artist information is collected, organized, cleaned, and displayed in a concise dataframe layout (Fig. 1). This dataframe is a very general overview of each artist juxtaposed with each other to quickly compare and contrast. Several rows hold more than just a value, such as a dictionary (tracks with track id) or a list (albums), which are used for more in-depth analysis in the following steps.
+
+|![artist_track_features](https://user-images.githubusercontent.com/94403609/147415592-ff7051d8-59f1-4a72-afd0-7c3aca3777a5.png)|
+|:--:|
+|Fig. 2 - Artist Track Level Audio Features</b>|
+
+The next section of analysis focuses on each artist's musical profile, based on Spotify audio features from their Top 10 songs. Every track in the Spotify database includes audio features that describe the track traits, allowing for more precise and granular analytics to be performed. The image above (Fig. 2) depicts the first five rows in the dataframe that is used to determine each artist's musical profile and to easily assess each track in their top 10, on an individual observation level. When collecting the audio features, most feeatues were bound between 0 and 1, except two: Tempo and Loudness. To correctly analyze all the important features and get the entire holistic view, these features were normalized between 0 and 1 by apllying ((x-min)/(max-min)) to each observation.
+
+|![agg_artist_track_features](https://user-images.githubusercontent.com/94403609/147417506-2c2cadff-2fc9-474d-9da4-8bffdb28ac26.png)|
+|:--:|
+|Fig. 3 - Artist Aggregrated Audio Features</b>|
 
 
 
