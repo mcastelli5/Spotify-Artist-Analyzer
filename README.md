@@ -42,7 +42,13 @@ The next section of analysis focuses on each artist's musical profile, based on 
 
 |![agg_artist_track_features](https://user-images.githubusercontent.com/94403609/147417506-2c2cadff-2fc9-474d-9da4-8bffdb28ac26.png)|
 |:--:|
-|Fig. 3 - Artist Aggregrated Audio Features</b>|
+|Fig. 3 - Aggregated Artist Audio Features</b>|
+
+To visualize each artist's musical profile, the Top 10 track's and their features were aggreagated into one average score (Fig. 3). This dataframe layout allows for more efficient visualizations to be created. For this project, the Plotly library was used to display a colorful radar chart and small multiple box plots. Plotly allows users to render highly customizable and interactive visuals with minimal complexity in code when compared to other visualization libraries such as MatplotLib and Seaborn (also great options!).
+
+|![artist_analyzer_rdrchart](https://user-images.githubusercontent.com/94403609/147418003-186ff743-450e-4e4a-81fe-aa3b2c1315ea.png)|
+|:--:|
+|Fig. 4 - Artist Audio Features Radar Chart</b>|
 
 
 
