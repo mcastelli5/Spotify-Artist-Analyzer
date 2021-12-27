@@ -50,7 +50,7 @@ To visualize each artist's musical profile, the Top 10 track's and their feature
 |:--:|
 |Fig. 4 - Artist Audio Features Radar Chart</b>|
 
-For the initial view of each artist's musical profile, a Plotly radar chart was used to depict the comparison between profiles because this visual allows for multivariate data to be plotted relative to the same starting point. One benefit includes the ability to compare each artist's profile holistically or by each separate variable. The chart creates a web-like visual for each artist that can be used to discover similar patterns between each or multiple profiles that might not be as obvious in other forms of visualization.
+For the initial view of each artist's musical profile, a Plotly radar chart (Fig. 4) was used to depict the comparison between profiles because this visual allows for multivariate data to be plotted relative to the same starting point. One benefit includes the ability to compare each artist's profile holistically or by each separate variable. The chart creates a web-like visual for each artist that can be used to discover similar patterns between each or multiple profiles that might not be as obvious in other forms of visualization.
 
 |![artist_comp_box](https://user-images.githubusercontent.com/94403609/147486013-60cf6d47-9abc-4f3e-8bb5-dc40416c2d79.png)|
 |:--:|
