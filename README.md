@@ -56,7 +56,17 @@ For the initial view of each artist's musical profile, a Plotly radar chart (Fig
 |:--:|
 |Fig. 5 - Artist Audio Feature Box Plots</b>|
 
+Since it is important to get a few different views of the dataset, the same information used in the Radar chart is now displayed in a small multiples series of box plots (Fig. 5). While the first visual (Fig. 4) is great at consolidating the variables into one concise chart, the box plots split by each feature helps to expand the data to analyze more specific data points. Each subplot has a box plot per artist for the given feature which includes min, max, median, quartiles and any outliers if applicable. In addition, the small multiple layout enables a quick analysis of all artists and features since each subplot is exactly the same (axes, categories, etc...) except for the underlying data.
 
+### Use Case Insights
+
+|![LB_Marshmello_Comp](https://user-images.githubusercontent.com/94403609/147496948-a7ea551e-3134-4a09-81ad-d553168bbfc0.png)|
+|:--:|
+|Fig. 6 - Luke Bryan & Marshmello Radar Comparison</b>|
+
+When taking a look at this scenario, it was interesting to find that two of the four artists that were chosen are very similar to each other (Luke Bryan and Marshmello), even though their genres do not overlap and are considered entirely different in the music industry. Luke Bryan is known as a top Country artist and Marshmello produces music primarily for EDM & House listeners. However, their musical profile (Fig. 6) is more closely related than expected and shows that within the track features of their Top 10 songs, they both follow the same pattern for creating popular music within their respective domains. 
+
+This similarity is further exemplified through the box plots where 
 
 ## Lessons Learned
 
