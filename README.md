@@ -66,8 +66,32 @@ Since it is important to get a few different views of the dataset, the same info
 
 When taking a look at this scenario, it was interesting to find that two of the four artists that were chosen are very similar to each other (Luke Bryan and Marshmello), even though their genres do not overlap and are considered entirely different in the music industry. Luke Bryan is known as a top Country artist and Marshmello produces music primarily for EDM & House listeners. However, their musical profile (Fig. 6) is more closely related than expected and shows that within the track features of their Top 10 songs, they both follow the same pattern for creating popular music within their respective domains. 
 
-This similarity is further exemplified through the box plots where 
+|## Lessons Learned![LB_Marshmello_Comp_box](https://user-images.githubusercontent.com/94403609/147499337-a2706390-b2ae-40e0-bee9-cf098654dc42.png)|
+|:--:|
+|Fig. 7 - Luke Bryan & Marshmello Box Comparison</b>|
 
-## Lessons Learned
+This finding is further exemplified through the box plots (Fig. 7) as the two artists produce similar medians and quartile ranges in almost every category. Medians are used in this scenario to combat the outliers that exist in a few of the features.
 
+Based on the visualizations, these two artists can be analyzed by their average features for their Top 10 songs as such:
 
+Measurable Values (Mean Value for that Track)
+
+- **Danceability**: Marshmello tends to produce more danceable songs than luke Bryan. This follows closely to each artist's specific genres, Country being less "dancy" than EDM & House music.
+
+- **Energy**: Both artists produce music with high energy, but Luke Bryan tends to be higher in energy which was shocking when compared to Marshmello.
+
+- **Loudness**: Both artists produce music that is considered "loud", which is measured in decibels (dB).
+ 
+- **Valence**: The largest difference between these two artists is this feature. Luke Bryan tends to produce a lot happier and euphoric music than Marshmello.
+ 
+- **Tempo**: Both artists scored closely to each other; which was shocking but not unrealistic since the box plots provided more value in this feature by showing that Luke Bryan also has a wider range of tempos than Marshmello. Therefore, Marshmello is more consistent in tempo than Luke Bryan even though his average is higher.
+
+Predictive Values (Spotify guessing if something exists in the track or not)
+
+- **Speechiness**: Both artists scored below .33, meaning that there is a high probability that their tracks don't ONLY include words, but also can be primarily "non-speech-like" tracks. Marshmello fits well into the category of "non-speech-like" given his genre, but Luke Byan scored lower than expected.
+
+- **Acousticness**: Both artists scored very low, meaning that Spotify is confident that their tracks are not mainly acoustic. After looking at the top songs analyzed, this seems to be accurate.
+
+- **Instrumentalness**: Both artists scored very low, meaning that Spotify is confident that their tracks contain at least some vocals. After looking at the top songs analyzed, this seems to be accurate.
+
+- **Liveness**: Both artists scored very low, meaning that Spotify is confident that their tracks are not performed live (like a recording from a live concert). After looking at the top songs analyzed, this seems to be accurate.
