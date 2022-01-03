@@ -95,3 +95,13 @@ Predictive Values (Spotify guessing if something exists in the track or not)
 - **Instrumentalness**: Both artists scored very low, meaning that Spotify is confident that their tracks contain at least some vocals. After looking at the top songs analyzed, this seems to be accurate.
 
 - **Liveness**: Both artists scored very low, meaning that Spotify is confident that their tracks are not performed live (like a recording from a live concert). After looking at the top songs analyzed, this seems to be accurate.
+
+### Libraries Used
+- Spotipy
+- Numpy
+- Pandas
+- Spotipy.oauth2
+- Plotly
+- Plotly.offline
+- Plotly.graph_objs
+- Plotly.subplots
