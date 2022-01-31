@@ -98,7 +98,7 @@ Predictive Values (Spotify guessing if something exists in the track or not)
 
 ### Libraries Used
 - Spotipy
-- Numpy
+- NumPy
 - Pandas
 - Spotipy.oauth2
 - Plotly
